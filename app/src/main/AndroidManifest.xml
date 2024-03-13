@@ -16,6 +16,25 @@
             android:name=".Principal"
             android:exported="false" />
         <activity
+            android:name=".CatalogoDetalles"
+            android:exported="false" />
+        <activity
+            android:name=".CatalogoGlobos"
+            android:exported="false" />
+        <activity
+            android:name=".CatalogoPeluches"
+            android:exported="false" />
+        <activity
+            android:name=".CatalogoRegalos"
+            android:exported="false" />
+        <activity
+            android:name=".CatalogoTazas"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleRegalos"
+            android:exported="false" />
+
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"

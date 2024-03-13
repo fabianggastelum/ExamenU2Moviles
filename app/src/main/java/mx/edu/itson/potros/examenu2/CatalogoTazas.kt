@@ -89,7 +89,7 @@ class CatalogoTazas : ComponentActivity() {
             title.setText(detalle.precio)
 
             image.setOnClickListener() {
-                val intent = Intent(context, detalles::class.java)
+                val intent = Intent(context, DetalleRegalos::class.java)
                 intent.putExtra("precio", detalle.precio)
                 intent.putExtra("imagen", detalle.image)
                 context!!.startActivity(intent)
